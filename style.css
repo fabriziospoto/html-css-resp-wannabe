@@ -71,3 +71,60 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+
+    /* BLOCCO LEZIONI */
+    .row {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+
+#lezioni .row img {
+        /* per centrare orizzontalmente */
+        width: 50%;
+        height: auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+    }
+
+    #lezioni {
+      text-align: center;
+    }
+
+    .row>.left h3,
+    .row>.left h3 {
+        text-align: center;
+    }
+
+    /* BLOCCO STEPS */
+    #steps {
+        margin top: 20px;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      width: 100%;
+      margin-top:20px;
+    }
+
+    /* BLOCCO PERCHE */
+    hr {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+
+
+
+}
